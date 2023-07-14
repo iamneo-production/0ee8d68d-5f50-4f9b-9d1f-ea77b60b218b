@@ -11,13 +11,22 @@ import store from './store';
 import Nav from './Nav/Nav';
 import { BrowserRouter } from 'react-router-dom';
 import Home from './HomePage/Home';
+import Footer from './Footer/Footer';
+import Products from './Products/Products';
+import About from './About/About';
+//import SimpleSlider from './Try';
+import MultipleItems from './Products/Try';
+import Cart from './Cart/Cart';
+import Add_Cart from './Cart_Adder';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <Provider store={store}>
   //   <Login/>
   // </Provider>
   <React.StrictMode>
-    <Home/>
+    <Cart/>
+    {/* <Footer/> */}
   </React.StrictMode>
 
 );
